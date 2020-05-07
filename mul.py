@@ -29,10 +29,7 @@ def matmul_cpu(A, B, C):
         C[i][j] += A[i][k] * B[k][j]
 
    
-# #ΒΡΗΚΑ ΤΟ ΠΑΡΑΚΑΤΩ ΠΟΥ ΕΙΝΑΙ ΠΙΟ ΓΡΗΓΟΡΟ 
-
-
-
+# Other way
 # from numba import cuda, float32
 
 # # Controls threads per block and shared memory usage.
